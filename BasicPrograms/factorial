@@ -1,0 +1,40 @@
+
+
+Factorial In Java:
+
+Factorial Program in Java: Factorial of n is the product of all positive descending integers. Factorial of n is denoted by n!.
+
+example:
+
+5!=5*4*3*2*1=120
+
+6!=6*5*4*3*2*1=720
+
+The factorial is normally used in Combinations and Permutations (mathematics).
+
+There are many ways to write the factorial program in java language. Let's see the 2 ways to write the factorial program in java.
+
+Factorial Program using loopFactorial Program using recursion
+
+factorial program using loop:
+
+class factorial
+{
+public static void main(String []args)
+{
+
+int n=7;
+int sum=1;
+for(int i=1;i<=n;i++)
+{
+sum=sum*i;
+
+}
+System.out.println(sum);
+}
+
+}
+
+output;
+
+7!=7*6*5*4*3*2*1=5040
